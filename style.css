@@ -1,0 +1,7 @@
+.hr {
+  display: block;
+  height: 2px;
+  width: calc(100% - 20px);
+  margin: 20px auto;
+  background-color: #000;
+}

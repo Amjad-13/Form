@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Information -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Abdelrahaman, Yousef, Amjad" />
+    <meta name="description" content="A form made by 3 students" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3b3b20cb08.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <!-- Import any font you want from Google Fonts library -->
+  </head>git
+  <body>
+    <div class="container">
+      <h2 class="heading">Sign Up Form</h2>
+      <form action="">
+
+        <section class="left">
+          <label for="first-n">First Name</label>
+          <input type="text" name="" id="first-n" required autofocus>
+          <br/>
+          <label for="mid-n">Middle Name</label>
+          <input type="text" name="" id="mid-n">
+          <br/>
+          <label for="last-n">Last Name</label>
+          <input type="text" name="" id="last-n" required>
+        </section>
+          
+        <section class="right">
+          <label for="birthdate">Birthdate</label>
+          <input type="date" name="" id="birthdate" required>
+          <br/>
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="" id="phone" required>
+          <br/>
+          <p style="display: inline-block">Gender</p> <!-- Remember to remove the margin from top -->
+
+          <input type="radio" name="gender" id="male">
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female">
+          <label for="female">Female</label>
+        </section>
+
+        <span class="hr"></span>
+      
+        <section class="left">
+          <!-- Should we make select input? or text is suitable? -->
+          
+          <label for="country">Country</label>
+          <input type="text" name="" id="country" placeholder="United States">
+          <br/>
+          <label for="state">State</label>
+          <input type="text" name="" id="state" placeholder="New York">
+          <!-- State -->
+        </section>
+        <section class="right">
+          <label for="post-num">Post Number</label>
+          <input type="text" name="" id="post-num" maxlength="10">
+          <br/>
+          <label for="adress">Adress</label>
+          <input type="text" name="" id="adress">
+        </section>
+        
+        <span class="hr"></span>
+
+        <label for="e-mail">Email</label>
+        <input type="email" name="" id="e-mail" required placeholder="eriney@gmail.com">
+        <br/>
+        <label for="pass">Password</label>
+        <input type="password" name="" id="pass" required>
+
+        <span class="hr"></span>
+
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+      </form>
+
+    </div>
+  </body>
+</html>
