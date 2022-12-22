@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 html {
+  zoom: 67%;
   height: 100%;
 }
 body {
